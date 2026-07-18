@@ -1,0 +1,21 @@
+Simulated Phishing Email Details
+
+From: mark@support.microsofl.com
+To: bob@mycompany.com
+Attachment: Edge.exe
+
+Message purpose documented in the lab:
+The message falsely claimed that the attachment contained the latest Microsoft Edge release.
+
+Social engineering indicators:
+- Lookalike sender domain
+- Generic greeting
+- Request to save and run an executable attachment
+- Brand impersonation
+- Urgent or authoritative wording
+- Unsigned executable file
+
+Note:
+The original README does not include the exact full email body, so no additional wording was invented here.
+
+Authorized educational lab use only.

