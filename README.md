@@ -347,10 +347,10 @@ cat /home/kali/CreditCards.txt
 ```
 
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/8027fe11-897a-4394-8f79-10abf961cabf"
+  <img src="https://github.com/user-attachments/assets/4bfa0479-422b-4013-a777-86fd42fa3cc3"
        alt="Linux forensic investigation evidence"
        width="49%">
-  <img src="https://github.com/user-attachments/assets/4bfa0479-422b-4013-a777-86fd42fa3cc3"
+  <img src="https://github.com/user-attachments/assets/8027fe11-897a-4394-8f79-10abf961cabf"
        alt="Linux forensic investigation evidence"
        width="49%">
 </p>
